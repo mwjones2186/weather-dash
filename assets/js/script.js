@@ -50,10 +50,9 @@ function grabWeather(){
 
            
             var temperatureEl = document.getElementById("temperature")
-            temperatureEl.textcontent = data.list[i].main.temp
+            temperatureEl.textcontent = data.list[0].main.temp
            
-            document.getElementById("temperature").append(temperatureEl)
-            console.log()
+            console.log(data.list[0].main.temp)
                 //document.createElement('temperature')
             
                 // var h1el2 = document.createElement('h1')
