@@ -40,29 +40,74 @@ function grabWeather(){
     fetch(url)
     .then (response => response.json())
     .then (function (data){
-        // Get current information out of data
-            
+        // Get current information out of data         
+        
+        
+        
         // Loop through data.list 5 times, 
         for (let i=0; i < data.list.length; i+=8) {
             let temp =data.list[i].main.temp
             let wind =data.list[i].wind.speed
             let humidity =data.list[i].main.humidity
 
-           
-            var temperatureEl = document.getElementById("temperature")
-            temperatureEl.textcontent = data.list[0].main.temp
-           
-            console.log(data.list[0].main.temp)
-                //document.createElement('temperature')
+
             
-                // var h1el2 = document.createElement('h1')
-//             // h1el2.textContent =  data.results[i].birth_year
 
-//             // document.querySelector('body').append(h1El, h1el2)
+            //day 1
+            var temperatureEl = document.getElementById("temperature-0")
+            temperatureEl.textContent = ((data.list[0].main.temp - 273.15)*1.8)+32
 
+            var windEl = document.getElementById("wind-speed-0")
+            windEl.textContent = data.list[0].wind.speed
 
+            var humidityEl = document.getElementById("humidity-0")
+            humidityEl.textContent = data.list[0].main.humidity
 
-            //let UV Index
+             //let UV Index
+
+             //day 2
+              
+             var temperatureEl = document.getElementById("temperature-1")
+             temperatureEl.textContent = ((data.list[1].main.temp - 273.15)*1.8)+32
+ 
+             var windEl = document.getElementById("wind-speed-1")
+             windEl.textContent = data.list[1].wind.speed
+ 
+             var humidityEl = document.getElementById("humidity-1")
+             humidityEl.textContent = data.list[1].main.humidity
+           
+            //day 3
+
+             var temperatureEl = document.getElementById("temperature-2")
+            temperatureEl.textContent = ((data.list[2].main.temp - 273.15)*1.8)+32
+
+            var windEl = document.getElementById("wind-speed-2")
+            windEl.textContent = data.list[2].wind.speed
+
+            var humidityEl = document.getElementById("humidity-2")
+            humidityEl.textContent = data.list[2].main.humidity
+
+            //day 4
+
+            var temperatureEl = document.getElementById("temperature-3")
+            temperatureEl.textContent = ((data.list[3].main.temp - 273.15)*1.8)+32
+
+            var windEl = document.getElementById("wind-speed-3")
+            windEl.textContent = data.list[3].wind.speed
+
+            var humidityEl = document.getElementById("humidity-3")
+            humidityEl.textContent = data.list[3].main.humidity
+
+            //day 5
+
+            var temperatureEl = document.getElementById("temperature-4")
+            temperatureEl.textContent = ((data.list[4].main.temp - 273.15)*1.8)+32
+
+            var windEl = document.getElementById("wind-speed-4")
+            windEl.textContent = data.list[4].wind.speed
+
+            var humidityEl = document.getElementById("humidity-4")
+            humidityEl.textContent = data.list[4].main.humidity
             // Pu.. temp, wind, whatever, from data.list[i]...
             // temp = data.list[i].main.temp;
             // wind = data.list
@@ -73,7 +118,10 @@ function grabWeather(){
         
     });
 
-};
+}
+
+
+
 
 // function callback() {
 //     fetch('https://swapi.dev/api/people/').then(function (res) {
