@@ -31,6 +31,16 @@
     
 // }
 
+var storeLocal = localStorage.getItem('cityName').value;
+if (storeLocal) {
+    4('#edit').val(storeLocal);
+
+}
+
+
+
+
+
 function grabWeather(){
     let apiKey = "774222c77f8b3fa1592aeb44a0bae645"
     var cityName = document.getElementById("cityName").value.trim()
