@@ -1,12 +1,43 @@
-# weather-dash
+# Weather Dash 
+  
 
-## Weather- dash is a 5 day forcast app that allows a user to check the weather for any location. There is an input box that will allow for any city and as soon as the Fetch button is clicked. 
+  ## Table of Contents
 
-## Once clicked, temperature, wind speed and humidity will populate with current weather forcast for the area. 
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  .
+  * [Contribution](#contribution)
+  
+  ## Description 
 
-assets\images\weaterh dash main.png
-assets\images\weather populated.png
+  Weather dash is a 5 day forcast generator based on a city search. It will display the temperature, wind, humidity and UVI index for said city. .
 
-## In the future, this will also be integrated with UV data for the area along with a more asthetically pleasing landing page. 
+  It was a great project to get my feet wet with API calls and seeing how passing info from one API through another to get more information. It was also very interesting on using temprate literals. Being able to change a webdomain to take a new set of info and render something different. .
 
-## Brought to you by Mike Jones
+  Its a very simple weather app. Want to get out of town this weekend? Check the weather and pack your bags! .
+
+  API calls, temprate literals and simple DOM manipulation. .
+
+ 
+
+  ## Installation
+  Clone the repo. Open index.html in the web browser or utilizing a live server in VS code. Then type a city and hit enter.
+
+  ## Usage
+
+  I actually used this app, or snippets of this code for a separate project in using weather to see if it was safe to have a fire. It was called Camp-Firecast. .
+
+  ## Contribution
+
+  Feedback. I am always working on improving my coding and modifying my code to be more scaleable. Also able to reduce redundant code. So feedback is always apreciated. Thank you!.
+
+  ## Tests
+
+  No formal tests just lots of trial and error. .
+
+  ## Questions
+
+  Thank you!.
+
+  
