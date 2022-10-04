@@ -23,6 +23,13 @@
 
   ## Installation
   Clone the repo. Open index.html in the web browser or utilizing a live server in VS code. Then type a city and hit enter.
+  
+  ## Screenshots
+  
+![WD1](https://user-images.githubusercontent.com/97492542/193733068-f55b0bfe-d8ae-4f46-8c30-f35a6c03cb2e.png)
+![WD2](https://user-images.githubusercontent.com/97492542/193733069-4c42747c-0156-4754-bffb-5433a1de2183.png)
+![WD3](https://user-images.githubusercontent.com/97492542/193733070-801cc329-5136-4b5a-bf58-ef1440bf1498.png)
+![WD4](https://user-images.githubusercontent.com/97492542/193733071-651aecff-b529-4110-9578-b43112de6866.png)
 
   ## Usage
 
