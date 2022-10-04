@@ -1,0 +1,72 @@
+body {
+    background-color: #f2e9e4;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #4a4e69;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.main-form {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    height: fit-content;
+}
+
+.current-day {
+    display: inline-block;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 20vw;
+    background-color: #c9ada7;
+}
+
+.five-day div {
+    position: relative;
+    height: 300px;
+    width: 12.5%;
+    background-color: #9a8c98;
+    left: 27.5%;
+    border: 2px solid black;
+}
+
+.section-header {
+    position: relative;
+    left: 27%;
+}
+
+.weather-conditions {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 110%;
+    margin-bottom: 2.5%;
+    margin-top: 20px;
+}
+
+.date-time {
+    font-family: 'Righteous', cursive;
+}
+
+.date-time-Main {
+    font-family: 'Righteous', cursive;
+    font-size: 125%;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+.date-time-5Day {
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+#main-text {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#search-text {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
